@@ -10,7 +10,7 @@ var include_Fizz_Buzz = function(F_B){
     message = 'Fizz Buzz';
   }
   else{
-    message = 'F_B';
+    message = F_B;
   }
   return message;
 }
