@@ -1,20 +1,20 @@
 
-var include_Fizz-Buzz = function(F-B){
-  if(F-B === 3){
+var include_Fizz_Buzz = function(F_B){
+  if(F_B === 3){
     message = 'Fizz';
   }
-  else if(F-B === 5){
+  else if(F_B === 5){
     message = 'Buzz';
   }
-  else if(F-B === 15){
+  else if(F_B === 15){
     message = 'Fizz Buzz';
   }
   else{
-    message = 'F-B';
+    message = 'F_B';
   }
   return message;
 }
 document.getElementById('form').onsubmit = function(){
- //window.alert(document.getelementById('form').message.value);
+ window.alert(document.getelementById('form').message.value);
  return false;
 };
