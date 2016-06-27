@@ -12,7 +12,9 @@ var include_Fizz-Buzz = function(F-B){
   else{
     message = 'F-B';
   }
+  return message;
 }
 document.getElementById('form').onsubmit = function(){
- window.alert(document.getelementById('form').message.value);
+  window.alert('押されました');
+ //window.alert(document.getelementById('form').message.value);
 };
