@@ -13,11 +13,7 @@ var include_Fizz-Buzz = function(F-B){
     message = 'F-B';
   }
 }
-for(var i=1;i<100;i++){
-  var li = document.createElement('li');
-  li.textContent = i + '回目';
-  document.getElementById('list').appendChild(li);
-}
 document.getElementById('form').onsubmit = function(){
-  window.alert(document.getelementById('form').include_Fizz-Buzz(message).value);
+  include_Fizz-Buzz(message);
+  window.alert(document.getelementById('form').message.value);
 };
