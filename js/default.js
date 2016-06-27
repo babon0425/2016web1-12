@@ -15,7 +15,6 @@ var include_Fizz-Buzz = function(F-B){
   return message;
 }
 document.getElementById('form').onsubmit = function(){
-  window.alert('押されました');
  //window.alert(document.getelementById('form').message.value);
  return false;
 };
