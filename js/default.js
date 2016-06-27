@@ -14,6 +14,5 @@ var include_Fizz-Buzz = function(F-B){
   }
 }
 document.getElementById('form').onsubmit = function(){
-  include_Fizz-Buzz(message);
-  window.alert(document.getelementById('form').message.value);
+  window.alert(document.getelementById('form').include_Fizz-Buzz(message).value);
 };
