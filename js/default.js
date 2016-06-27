@@ -15,6 +15,6 @@ var include_Fizz_Buzz = function(F_B){
   return message;
 }
 document.getElementById('form').onsubmit = function(){
- window.alert(document.getelementById('form').message.value);
+ window.alert(document.getElementById('form').message.value);
  return false;
 };
